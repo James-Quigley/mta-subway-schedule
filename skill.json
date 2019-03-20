@@ -3,26 +3,26 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "Sample Short Description",
+          "summary": "MTA Subway Schedules",
           "examplePhrases": [
-            "Alexa open hello world",
-            "hello",
+            "Alexa, ask the subway when the next Queens train is",
+            "ask the subway when is the next Manhattan train",
             "help"
           ],
-          "name": "Hello World",
-          "description": "Sample Full Description"
+          "name": "mta-subway-schedule",
+          "description": "Get the schedules for Manhattan/Queens bound trains on the N/W Broadway stop"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "Sample Testing Instructions.",
-      "category": "KNOWLEDGE_AND_TRIVIA",
+      "testingInstructions": "Ask when the next Queens or Manhattan trains are",
+      "category": "PUBLIC_TRANSPORTATION",
       "distributionCountries": []
     },
     "apis": {
       "custom": {
         "endpoint": {
           "sourceDir": "lambda/custom",
-          "uri": "ask-custom-helloworld-default"
+          "uri": "ask-custom-mta-subway-schedule-default"
         }
       }
     },
