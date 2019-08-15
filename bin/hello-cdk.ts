@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import cdk = require('@aws-cdk/core');
-import { LambdaCronStack } from '../lib/lambda-cron';
+import { AstoriaTrainsStack } from '../lib/astoria-trains-alexa-skill';
 
 const app = new cdk.App();
-new LambdaCronStack(app, 'LambdaCronStack');
+new AstoriaTrainsStack(app, 'AstoriaTrainsStack');

@@ -6,7 +6,7 @@ import dynamodb = require('@aws-cdk/aws-dynamodb');
 import cdk = require('@aws-cdk/core');
 
 
-export class LambdaCronStack extends cdk.Stack {
+export class AstoriaTrainsStack extends cdk.Stack {
   constructor(app: cdk.App, id: string) {
     super(app, id);
 
@@ -65,5 +65,5 @@ export class LambdaCronStack extends cdk.Stack {
 }
 
 const app = new cdk.App();
-new LambdaCronStack(app, 'LambdaCronExample');
+new AstoriaTrainsStack(app, 'AstoriaTrainsAlexaSkill');
 app.synth();
